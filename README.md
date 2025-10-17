@@ -17,3 +17,6 @@ Tampilan utama program terdiri dari form input dan tabel lagu. Form digunakan un
 Tabel lagu ditampilkan menggunakan JTable dan menampilkan data dalam bentuk kolom: No, ID, Judul, Durasi, Artis, Genre, dan Tahun Rilis. Data diambil dari database yang sudah terkoneksi. Ketika pengguna memilih baris di tabel, data akan otomatis ditampilkan di form input.
 
 Dalam program ini, pengguna dapat melihat daftar lagu dalam tabel, menambahkan lagu baru melalui form, mengedit lagu dengan memilih dari tabel lalu memperbarui datanya, serta menghapus lagu dengan konfirmasi terlebih dahulu. Selain itu, terdapat validasi input dimana program akan menampilkan pesan error jika ada kolom yang belum diisi saat menekan Add atau Update, dan juga akan memberi peringatan jika pengguna mencoba menambahkan lagu dengan ID yang sudah ada.
+
+# Dokumentasi
+
