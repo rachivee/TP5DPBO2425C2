@@ -4,7 +4,7 @@ Saya Farah Maulida dengan NIM 2410024 mengerjakan Tugas Praktikum 5 dalam mata k
 
 # Desain dan Alur Program
 
-Pada praktikum kali ini, saya menggunakan tema daftar lagu yang didengarkan. Program ini dibuat menggunakan bahasa pemrograman Java. Terdapat tiga kelas utama dalam program ini, yaitu Product, ProductMenu, dan yang terakhir adalah Database. Kelas Product berfungsi untuk merepresentasikan data dari setiap lagu, sedangkan kelas ProductMenu menangani logika antarmuka dan interaksi pengguna, lalu Database berhubungan dengan koneksi atau hubungan antara program dan database.
+Pada praktikum kali ini, saya menggunakan tema daftar lagu yang sering didengarkan. Program ini dibuat menggunakan bahasa pemrograman Java. Terdapat tiga kelas utama dalam program ini, yaitu Product, ProductMenu, dan yang terakhir adalah Database. Kelas Product berfungsi untuk merepresentasikan data dari setiap lagu, sedangkan kelas ProductMenu menangani logika antarmuka dan interaksi pengguna, lalu Database berhubungan dengan koneksi atau hubungan antara program dan database.
 
 1. Kelas Product memiliki enam atribut utama, yaitu id, judul, artis, durasi, genre, dan tahun. Atribut-atribut tersebut menggambarkan informasi dasar tentang sebuah lagu. Misalnya, id digunakan sebagai kode unik untuk membedakan satu lagu dengan yang lain, sedangkan judul dan artis menggambarkan isi lagu. Durasi menyimpan informasi lama waktu lagu diputar dalam satuan detik, genre menunjukkan kategori musik seperti Pop, R&B, atau Indie, dan tahun mencatat tahun rilis lagu tersebut. Kelas ini juga menyediakan konstruktor untuk menginisialisasi objek serta metode setter dan getter untuk mengatur dan mengambil nilai atribut secara aman.
 
