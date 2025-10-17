@@ -16,7 +16,25 @@ Tampilan utama program terdiri dari form input dan tabel lagu. Form digunakan un
 
 Tabel lagu ditampilkan menggunakan JTable dan menampilkan data dalam bentuk kolom: No, ID, Judul, Durasi, Artis, Genre, dan Tahun Rilis. Data diambil dari database yang sudah terkoneksi. Ketika pengguna memilih baris di tabel, data akan otomatis ditampilkan di form input.
 
-Dalam program ini, pengguna dapat melihat daftar lagu dalam tabel, menambahkan lagu baru melalui form, mengedit lagu dengan memilih dari tabel lalu memperbarui datanya, serta menghapus lagu dengan konfirmasi terlebih dahulu. Selain itu, terdapat validasi input dimana program akan menampilkan pesan error jika ada kolom yang belum diisi saat menekan Add atau Update, lalu jika input di kolom durasi bukan berupa angka, dan juga akan memberi peringatan jika pengguna mencoba menambahkan lagu dengan ID yang sudah ada.
+Dalam program ini, pengguna dapat melihat daftar lagu dalam tabel, menambahkan lagu baru melalui form, mengedit lagu dengan memilih dari tabel lalu memperbarui datanya, serta menghapus lagu dengan konfirmasi terlebih dahulu. Selain itu, terdapat validasi input dimana program akan menampilkan pesan error di beberapa kondisi berikut :
+1. Jika ada kolom yang belum diisi saat menekan Add atau Update
+2. Jika input di kolom durasi bukan berupa angka
+3. Jika pengguna mencoba menambahkan lagu dengan ID yang sudah ada
+4. Jika pengguna mencoba mengubah ID
 
 # Dokumentasi
 
+Prompt error jika ada kolom yang belum diisi
+<img width="1920" height="1080" alt="Screenshot (741)" src="https://github.com/user-attachments/assets/ff3dab9e-2476-422b-b6f0-8019789dff46" />
+<img width="1920" height="1080" alt="Screenshot (747)" src="https://github.com/user-attachments/assets/037fbe5b-37a3-47b7-b0f0-1c4ffadd5f5a" />
+
+Prompt error jika ID yang digunakan sama
+<img width="1920" height="1080" alt="Screenshot (743)" src="https://github.com/user-attachments/assets/efe29e47-c52c-4b1d-9b27-11664620a674" />
+
+Prompt error jika input pada durasi bukan angka
+<img width="1920" height="1080" alt="Screenshot (744)" src="https://github.com/user-attachments/assets/9b72b74b-9af8-4ca8-919a-96147358ffa7" />
+
+Prompot error jika saat mengupdate mencoba mengubah ID
+<img width="1920" height="1080" alt="Screenshot (748)" src="https://github.com/user-attachments/assets/ade2711b-165e-4124-9a15-641207010c10" />
+
+*Untuk selengkapnya dapat dilihat di video pada folder dokumentasi
